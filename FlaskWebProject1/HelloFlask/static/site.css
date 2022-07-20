@@ -1,0 +1,143 @@
+.message {
+    font-weight: 600;
+    color: blue;
+}
+.navbar {
+    background-color: lightslategray;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    padding: 8px 5px 8px 5px;
+}
+
+.navbar a {
+        text-decoration: none;
+        color: inherit;
+}
+
+.navbar-brand {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.navbar-item {
+    font-variant: small-caps;
+    margin-left: 30px;
+}
+
+.body-content {
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#A1 {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: medium;
+    font-style: normal;
+    font-weight: 300;
+    color: #6C1D1F;
+}
+
+#A2 {
+    background: #5B1314;
+    height: 220px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.institucion {
+    color: white;
+    font-size: 250%;
+}
+
+#B1 {
+    margin: 50px 0px 30px 50px;
+    width: 65%;
+    float: left;
+}
+
+#B2 {
+    background: white;
+    width: 30%;
+    float: right;
+    height: auto;
+}
+
+#logo1 {
+    object-fit: contain;
+    margin: 10px 50px 10px 10px;
+}
+
+#logo2 {
+    object-fit: contain;
+    margin: 10px 10px 0px 10px;
+}
+
+#C1 {
+    background: #B9B7B7;
+    width: 80%;
+    /*height: 650px;*/
+    float: left;
+    height: 100%;
+}
+
+#C2 {
+    background: #8A862C;
+    width: 20%;
+    /*height: 650px;*/
+    float: right;
+    height : 100%;
+}
+
+#tit {
+    text-decoration: underline;
+    text-decoration-style: solid;
+    font-size: 250%;
+    text-align: center;
+}
+
+#E1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#D1 {
+    margin: 30px;
+    align-items: center;
+}
+
+#E1 {
+    margin: 80px;
+}
+
+#text1 {
+    font-size: 200%;
+    margin: 0px 100px;
+}
+
+#E2 {
+    margin-top: 15px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#E3 {
+    margin-top: 25px;
+    text-align: center;
+}
+table{
+    width:100%;
+}
+
+table,th, td{
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 10px;
+
+}

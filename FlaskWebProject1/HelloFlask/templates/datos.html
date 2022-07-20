@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+{% block content %}
+<div style="margin:auto">
+    <div id="C1" style="width : 100% !important ">
+        <section id="D1">
+            <h2 id="tit">Sistema de análisis para la ponderación de usuarios de Twitter en temas de tendencia</h2>
+            <h2>Tendencia:     {{tem}}</h2>
+            <h2>Tuits de muestreo:     {{tuits}}      </h2>
+            <h2>Estatus:  {{resolved}}</h2>
+            <table>
+                <tr>
+                    <td>
+                       <h2>Origen de la información:</h2>
+                       <h3>Id tuit: {{id}}</h3>
+                       <h3>creado: {{fec}}</h3>
+                       <h3>Texto: {{tex}}</h3>
+                       <h3>Seguidores: {{foll}}</h3>
+                    </td>
+                    <td>
+                        <h2> grafo</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>Lider de opinion:</h2>
+                        <h3>Id tuit:  </h3>
+                        <h3>creado:  </h3>
+                        <h3>Texto:   </h3>
+                        <h3>Seguidores:   </h3>
+                    </td>
+                    <td>
+                        <h2>grafo 2</h2>
+                    </td>
+                    
+                </tr>
+            </table>
+        </section>
+    </div>
+
+</div>
+{% endblock %}
